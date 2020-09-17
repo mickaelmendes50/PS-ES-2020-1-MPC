@@ -1,0 +1,59 @@
+1º Tela ok 
+	Login (texto)
+	senha (texto)
+	Entrar (botão)
+
+2º Tela - Membro - Kaio
+Tela administrativa 
+	Cadastrar atividade (botão)
+	Solicitar Certificado (botão)
+	Alterar senha (botão)
+
+3º Tela - Diretor - Kaio
+Tela administrativa 
+	Cadastrar atividade (botão)
+	Solicitar Certificado (botão)
+	Alterar senha (botão)
+	Validar solicitação (botão)
+	Cadastrar usuário (botão)
+	Gerar relatório (botão)
+
+4º Tela - Orientador - Kaio
+Tela administrativa 
+	Alterar senha (botão)
+	Validar certificado (botão)
+
+5º Tela - Membro - Mesquita
+Cadastrar atividade
+	Descrição (texto)
+	Data Inicial(texto)
+	Data Conclusão (texto)
+	Equipe (texto)
+	Cadastrar (botão)
+
+6º Tela - Diretor - Gustavo
+Validar solicitação
+	Requerente (texto)
+	Descrição das atividades (texto)
+	Horas trabalhadas (texto)
+	Aprovar (botão)
+	Gerar ocorrência (botao) - modal
+	
+
+7º Tela - Orientador - Gustavo
+Validar certificado
+	Requerente (texto)
+	Descrição das atividades (texto)
+	Horas trabalhadas (texto)
+	Aprovar
+	Gerar ocorrência (botao) - modal
+
+8º Tela - Diretor - Mesquita
+Cadastro de usuário
+	Tipo do usuário (seletor)
+	Nome (texto)
+	Email (texto)
+	Login (texto)
+	Senha (texto)
+	Cadastrar (botão)
+	
