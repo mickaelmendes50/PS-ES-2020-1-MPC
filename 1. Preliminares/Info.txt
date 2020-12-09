@@ -1,0 +1,7 @@
+Membros:
+
+* Gustavo Henrique de Freitas Martins (líder)
+* Kaio Ribeiro Sanchez
+* Mickael Mendes Mesquita
+
+Link do projeto: https://github.com/mickaelmendes50/PS-ES-2020-1-SysGT
