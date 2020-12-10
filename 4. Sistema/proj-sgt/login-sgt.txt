@@ -1,0 +1,39 @@
+diretor@sgt.com
+membro@sgt.com
+orientador@sgt.com
+Senha: Teste1.
+
+<ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Relatórios</a>
+                            <ul class="dropdown-menu">
+                                @if (User.IsInRole("Diretor") || User.IsInRole("Membro") )
+                                {
+                                    <li>@Html.ActionLink("Conf. Cega por Pedido", "ConfCegaPorPedidoFiltro", new { controller = "Relatorios" }, new { @class = "dropdown-item" })</li>
+                                }
+                                @if (User.IsInRole("/Relatorios/ConsultaPedido"))
+                                {
+                                    <li>@Html.ActionLink("Consultar Pedido", "ConsultaPedido", new { controller = "Relatorios" }, new { @class = "dropdown-item" })</li>
+                                }
+                                @if (User.IsInRole("/Relatorios/RelacaoEntrNotasFiltro"))
+                                {
+                                    <li>@Html.ActionLink("Relação de Entradas por Nota", "RelacaoEntrNotasFiltro", new { controller = "Relatorios" }, new { @class = "dropdown-item" })</li>
+                                }
+                            </ul>
+                        </li>
+                    </ul>
+
+
+
+
+
+
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Atividade", "Create", "Activity")</li>
+
+                        @if (User.IsInRole("Diretor"))
+                        {
+                        <li>@Html.ActionLink("Cadastrar Usupar", "Create", "Activity")</li>
+                        }
+                        @*<li>@Html.ActionLink("Certificado", "Create", "CertificateRequest")</li>*@
+                    </ul>
