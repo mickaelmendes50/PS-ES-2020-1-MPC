@@ -162,7 +162,7 @@ namespace proj_sgt.Controllers
                     //var roleStore = new RoleStore<IdentityRole>(new ApplicationDbContext());
                     //var roleManager = new RoleManager<IdentityRole>(roleStore);
                     //await roleManager.CreateAsync(new IdentityRole("Orientador"));
-                    //await UserManager.AddToRoleAsync(user.Id, "Orientador");
+                    await UserManager.AddToRoleAsync(user.Id, "Membro");
 
 
 

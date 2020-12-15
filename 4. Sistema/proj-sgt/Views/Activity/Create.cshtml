@@ -8,10 +8,10 @@
 <h2>Cadastrar nova atividade</h2>
 
 
-@using (Html.BeginForm("Create", "Activity")) 
+@using (Html.BeginForm("Create", "Activity"))
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>Atividade</h4>
         <hr />
@@ -58,7 +58,7 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Adicionar" class="btn btn-primary" />
+                <input type="submit" value="Adicionar" id="btnConfirmation" class="btn btn-primary" />
             </div>
         </div>
     </div>
@@ -70,4 +70,6 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+
+
 }
